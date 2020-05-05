@@ -1,13 +1,13 @@
 console.log("Person1 : Shows Ticket");
 console.log("Person2 : Shows Ticket");
 
-const promoseWifeBriningTickets = new Promise((resolve, reject) => {
+const promiseWifeBriningTickets = new Promise((resolve, reject) => {
   setTimeout(() => {
     resolve("Ticket");
   }, 3000);
 });
 
-const getPopcorn = promoseWifeBriningTickets.then((ticket) => {
+const getPopcorn = promiseWifeBriningTickets.then((ticket) => {
   console.log("Wife : Brings the tickets.");
   console.log("Husband : Let go in.");
   console.log("Wife : No, I'm hungry. I need popcorn.");
